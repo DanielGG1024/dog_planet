@@ -294,6 +294,36 @@ header {
 .card-description {
   font-size: 1rem;
 }
+/*Adoption*/
+.adoption-wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 135px;
+  width: 100%;
+  background-color: #fff;
+  -webkit-box-shadow: 2px 10px 12px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 2px 10px 12px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 10px 12px 0px rgba(0, 0, 0, 0.1);
+}
+.adoption-image {
+  width: 100%;
+}
+.adoption-info {
+  display: grid;
+  justify-items: center;
+  align-content: center;
+  padding: 1.2rem;
+}
+.adoption-info .title {
+  font-size: 1.75rem;
+  margin-bottom: 0.4rem;
+  color: #267c99;
+}
+.adoption-info .description {
+  font-size: 1rem;
+  margin-bottom: 0.9rem;
+  color: #5e5c5c;
+}
 /********* 電腦版樣式 *********/
 @media screen and (min-width: 768px) {
   .action {
@@ -349,5 +379,20 @@ header {
   }
   .sub-banner .action {
     font-size: 1.2rem;
+  }
+  /*Adoption*/
+  .adoption-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 2rem;
+  }
+  .adoption-info {
+    justify-items: start;
+  }
+  .adoption-info .title {
+    font-size: 3rem;
+  }
+  .adoption-info .description {
+    font-size: 1.875rem;
   }
 }
