@@ -324,6 +324,15 @@ header {
   margin-bottom: 0.9rem;
   color: #5e5c5c;
 }
+/*Footer*/
+footer {
+  width: 100%;
+  text-align: center;
+  background: #4a4a4a;
+  padding: 1rem;
+  color: white;
+  letter-spacing: 2px;
+}
 /********* 電腦版樣式 *********/
 @media screen and (min-width: 768px) {
   .action {
