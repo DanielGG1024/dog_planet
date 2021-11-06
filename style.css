@@ -10,6 +10,9 @@ body {
   width: 100%;
   height: 100%;
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   background-color: #f6f7f8;
   font-family: "Noto Sans TC", sans-serif; /* 設定字型 */
@@ -112,7 +115,7 @@ header {
 
 .navbar-toggle:checked ~ .nav .nav-item {
   /*開啟時透明度為1*/
-  transition: opacity 0.2s ease-out 0.15s;
+  transition: opacity 0.4s ease-out 0.15s;
   opacity: 1;
 }
 
